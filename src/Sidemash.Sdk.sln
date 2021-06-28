@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Sidemash.Sdk", "Sidemash.Sdk\Sidemash.Sdk.fsproj", "{1CBEAB7C-FF2B-40E0-A6AB-E844FFD10031}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Example", "Example\Example.fsproj", "{1CBEAB7C-FF2B-40E0-A6AB-E844FFD10031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CBEAB7C-FF2B-40E0-A6AB-E844FFD10031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBEAB7C-FF2B-40E0-A6AB-E844FFD10031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBEAB7C-FF2B-40E0-A6AB-E844FFD10031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBEAB7C-FF2B-40E0-A6AB-E844FFD10031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

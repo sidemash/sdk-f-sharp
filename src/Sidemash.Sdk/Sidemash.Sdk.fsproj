@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>Sidemash.Sdk.Fsharp</PackageId>
+        <Version>1.0.0-alpha1</Version>
+        <Authors>Sidemash Cloud</Authors>
+        <Company>Sidemash</Company>
+        <Description>The Official Sidemash Cloud SDK for F Sharp </Description>
+    </PropertyGroup>
+   
+    <ItemGroup>
+        <Compile Include="Auth.fs" />
+        <Compile Include="HttpMethod.fs" />
+        <Compile Include="Hook.fs" />
+        <Compile Include="InstanceStatus.fs" />
+        <Compile Include="ListForm.fs" />
+        <Compile Include="Timestamp.fs" />
+        <Compile Include="UTCDateTime.fs" />
+        <Compile Include="Pagination.fs" />
+        <Compile Include="Play.fs" />
+        <Compile Include="SecureAndNonSecure.fs" />
+        <Compile Include="PublishRtmp.fs" />
+        <Compile Include="Publish.fs" />
+        <Compile Include="StreamMetaData.fs" />
+        <Compile Include="StreamSquare.fs" />
+        <Compile Include="RestCollection.fs" />
+        <Compile Include="Request.fs" />
+        <Compile Include="Api.fs" />
+        <Compile Include="UpdateStreamSquareForm.fs" />
+        <Compile Include="CreateStreamSquareForm.fs" />
+        <Compile Include="StreamSquareService.fs" />
+        <Compile Include="Client.fs" />
+        <Compile Include="UserDesc.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FSharp.Data" Version="3.3.3" />
+    </ItemGroup>
+
+</Project>
